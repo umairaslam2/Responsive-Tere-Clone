@@ -1,0 +1,331 @@
+.navbar{
+    background-color: white;
+    height: 100px;
+
+
+}
+
+.theme-btn{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-item>a{
+    color: black;
+    font-weight: 500;
+
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.slide>img{
+  width: 70%;
+}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.slide-content>span{
+    color: gray;
+    font-size: 15px;
+}
+
+.slide-content>h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 65.91px;
+
+}
+
+.store-icons{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-nav{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .slide>img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+
+    }
+
+    .slide-content>h1{
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+}
+
+.navbar{
+    background-color: lightgrey;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    font-style: italic;
+    font-size: large;
+    
+}
+
+.btn-success{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0px 3px;
+    border-radius: 5px;
+    
+    
+}
+.content{
+    position: relative;top: 40px;
+}
+
+.content>h1{
+   text-align: center
+   
+}
+.content>p{
+    text-align: center;
+    justify-content:center ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.main{
+    position: relative;top: 60px;
+}
+
+.main>img{
+    
+    
+}
+
+
+.content-left>h1{
+    
+    position: relative;right: 20px;
+    font-size: 20px;
+    position: relative;left: 10px;
+}
+
+.content-left>p{
+    
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    width: 300px;
+    
+}
+
+.notmain{
+    position: relative;top: 60px;
+}
+
+.notmain>img{
+    
+    
+}
+
+
+.content-top>h1{
+    
+    position: relative;right: 20px;
+    font-size: 20px;
+    position: relative;left: 10px;
+}
+
+.content-top>p{
+    
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    width: 300px;
+}
+
+.picture{
+    text-align: center;
+    position: relative;bottom: 450px;
+}
+.picture>img{
+    width: 250px;
+}
+
+.auto{
+    text-align: center;
+}
+
+.footer{
+    height: 100px;
+    
+}
+.footer-pic{
+    position: relative;top: 0px;
+}
+
+.point{
+    text-align: center;
+    position: relative;bottom: 30px;
+}
+
+
+
+.footer-icons{
+    margin-top: 20px;
+    text-align: end;
+    position: relative;bottom: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+    .slide-content{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .theme-slide{
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        padding: 10px;
+        margin: auto;
+
+    }
+
+    .btn-success{
+        padding: 10px;
+        justify-content: center;
+    }
+    .navbar-brand{
+        padding: 10px;
+        text-align: center;
+    }
+    .d-flex{
+        flex-direction: column;
+        flex: content;
+        position: relative;right: 5px;
+    }
+
+    .main{
+        text-align: center;
+    }
+
+    .notmain{
+        text-align: center;
+    }
+
+    .picture{
+        position: relative;top: 60px;
+    }
+
+    .picture>img{
+        width: 200px;
+    }
+
+    .mainframe1{
+        text-align: center;
+    }
+    .mainframe2{
+        text-align: center;
+    }
+
+    .footer-pic{
+        text-align: center;
+    }
+
+    .point{
+      position: relative;top: 10px;
+    }
+
+
+    .footer-icons{
+        text-align: center;
+        position: relative;bottom: 10px;
+    }
+    
+    
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    .main{
+        text-align: right;
+    }
+
+    .notmain{
+        position: inherit;
+        
+    }
+
+    .content-top>h1{
+      position: relative;bottom: 190px;
+    }
+
+
+    .content-top>p{
+        position: relative;bottom: 190px;
+    }
+
+
+
+    .main>img {
+      position: relative;left: 20px;
+    }
+
+    .notmain>img {
+      position: relative;left: 25px; bottom: 200px;
+    }
+
+    .mainframe{
+        text-align: end;
+        background-color: white;
+    }
+    .mainframe>h1{
+        text-align: start;
+        position: relative;bottom: 100px; left: 10px;
+    }
+    .mainframe>p{
+        text-align: start;
+        position: relative;bottom: 100px; left: 10px;
+    }
+
+    .mainframe1{
+      background-color: lightgray;
+    }
+
+    .mainframe1>h1{
+        text-align: end;
+        position: relative;bottom: 100px; right: 10px;
+    }
+    .mainframe1>p{
+        text-align: end;
+        position: relative;bottom: 100px; right: 10px;
+    }
+    
+}
+
